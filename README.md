@@ -1,6 +1,10 @@
 # Simple Fuzzy Comparison
 Calculating how much two strings are similar to each other by analysing the number of common and uncommon characters in the two strings. The algorithm used has time complexity O(n+m), where n and m are the lengths of the compared words. It uses two lists to keep track of the number of times a character is present in each word and later uses them to calculate the final matching score between 0 and 1, where 1 represents complete match and 0 represents no match.
 
+## Installation
+
+    pip install fuzzy_compare
+
 ## How To Use
     from fuzzy_compare import compare_english_words
     
